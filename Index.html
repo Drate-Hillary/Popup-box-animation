@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <Script defer src="Script.js"></Script>
+</head>
+<body>
+    
+    <div class="container">
+        <button class="button" onclick="popup_open()">Show Model</button>
+
+        <div class="popup">
+            <button class="close-btn" onclick="close_popup()">X</button>
+            <div class="post-container">
+                <h2>Create a Post</h2>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos unde at nostrum voluptate neque repellendus sunt suscipit praesentium ipsa.</h5>
+            </div>
+
+            <div class="campign-container">
+                <h2>Campign</h2>
+                <input placeholder="Ex: Get 50% OFF" class="input" required>
+                <button class="continue-btn">Continue</button>
+                <button class="cancel-btn" onclick="close_popup()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
